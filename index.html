@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny Hunting Counter | DedSoft</title>
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/dedsoft-favicon.png" type="image/png">
+</head>
+<body>
+    <!-- Main -->
+    <div id="main-container">
+        <div id="pokemon-container">
+            <img src="" alt="" class="tossing">
+        </div>
+        <div id="control-container">
+            <h2></h2>
+            <h3 id="count">0</h3>
+            <button id="add-btn" class="control-btn" onclick="addCount()">Add (+)</button>
+            <button id="sub-btn" class="control-btn" onclick="subCount()">Sub (-)</button>
+            <button id="reset-btn" class="control-btn" onclick="resetCount()">Reset</button>
+            <input type="text" maxlength="20">
+            <button id="settings-btn" class="control-btn" onclick="getPokemon()">Set PKMN</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <p id="footer">&copy; 2020-2021 DedSoft.<br>All sprites used in this project belong to The Pokémon Company.</p>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
